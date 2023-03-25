@@ -41,6 +41,14 @@
 	margin: 0;
 }
 
+.technologies_placeholder_class{
+  display: block;
+  position: absolute;
+  top: 32px;
+  left: 807px;
+  margin: 0;
+}
+
 .sect1 {
 	position:absolute;
 	top:28px;
