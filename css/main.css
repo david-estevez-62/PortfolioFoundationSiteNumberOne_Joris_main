@@ -1,4 +1,3 @@
-
 /*Designer*/
 .author{
 	display: block;
@@ -8,7 +7,7 @@
 	margin: 0;
 }
 
-/*Works*/
+/*Applications*/
 .application{
 	display: block;
 	position:absolute;
@@ -55,7 +54,6 @@
 	left:120px;
 	height:78px;
 	width:1200px;
-	cursor: pointer;
 }
 .sect2 {
 	position:absolute;
@@ -63,7 +61,6 @@
 	left:120px;
 	height:78px;
 	width:1200px;
-	cursor: pointer;
 }
 .sect3 {
 	position:absolute;
@@ -71,7 +68,6 @@
 	left:120px;
 	height:78px;
 	width:1200px;
-	cursor: pointer;
 }
 .sect4 {
 	position:absolute;
@@ -79,7 +75,6 @@
 	left:120px;
 	height:78px;
 	width:1200px;
-	cursor: pointer;
 }
 .sect5 {
 	position:absolute;
@@ -87,7 +82,6 @@
 	left:120px;
 	height:78px;
 	width:1200px;
-	cursor: pointer;
 }
 .sect6 {
 	position:absolute;
@@ -95,35 +89,94 @@
 	left:120px;
 	height:78px;
 	width:1200px;
-	cursor: pointer;
+}
+.sect1_visible_part {
+  position:absolute;
+  top:16px;
+  left:0px;
+  height:44px;
+  width:1200px;
+  z-index:8;
+  cursor:pointer;
+}
+.sect2_visible_part {
+  position:absolute;
+  top:16px;
+  left:0px;
+  height:44px;
+  width:1200px;
+  z-index:8;
+  cursor:pointer;
+}
+.sect3_visible_part {
+  position:absolute;
+  top:16px;
+  left:0px;
+  height:44px;
+  width:1200px;
+  z-index:8;
+  cursor:pointer;
+}
+.sect4_visible_part {
+  position:absolute;
+  top:16px;
+  left:0px;
+  height:44px;
+  width:1200px;
+  z-index:8;
+  cursor:pointer;
+}
+.sect5_visible_part {
+  position:absolute;
+  top:16px;
+  left:0px;
+  height:44px;
+  width:1200px;
+  z-index:8;
+  cursor:pointer;
+}
+.sect6_visible_part {
+  position:absolute;
+  top:16px;
+  left:0px;
+  height:44px;
+  width:1200px;
+  z-index:8;
+  cursor:pointer;
 }
 .block1 {
 	position:absolute;
+  top:4px;
 	height:78px;
 	width:1200px;
 }
 .block2 {
 	position:absolute;
+  top:4px;
 	height:78px;
 	width:1200px;
 }
 .block3 {
 	position:absolute;
+  top:4px;
 	height:78px;
 	width:1200px;
 }
 .block4 {
 	position:absolute;
+  top:4px;
 	height:78px;
 	width:1200px;
 }
 .block5 {
 	position:absolute;
+  top:4px;
 	height:78px;
 	width:1200px;
 }
 .block6 {
 	position:absolute;
+  top:4px;
 	height:78px;
 	width:1200px;
 }
@@ -133,61 +186,68 @@ div hr:nth-child(1){
 	display: block;
 	position: absolute;	
 	height: 1px;
-    border: 0; 
-    border-top: 1px solid black;
-    margin: 0;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 0;
 	width:28px;
-	top:41px;
+	top:37px;
 }
 .longline{
 	display: block;
 	position: absolute;	
 	height: 1px;
-    border: 0; 
-    border-top: 1px solid black;
-    margin: 0;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 0;
 	width:1110px;
 	top:58px;
 	left:90px;
 }
+
+/* Set the height only, for images in sect1, additionaly only in sect1 because that is the only "sect" div which will contain images, to 20px, the width will be figured out by the browser keeping the image's proportions. */
+.sect1 img {
+ height: 20px;
+}
+
+
 .table1{
 	position: absolute;
-	top:20px;
+	top:16px;
 	left:90px;
 	height:40px;
 	width:1110px;
 }
 .table2{
 	position: absolute;
-	top:20px;
+	top:16px;
 	left:90px;
 	height:40px;
 	width:1110px;
 }
 .table3{
 	position: absolute;
-	top:20px;
+	top:16px;
 	left:90px;
 	height:40px;
 	width:1110px;
 }
 .table4{
 	position: absolute;
-	top:20px;
+	top:16px;
 	left:90px;
 	height:40px;
 	width:1110px;
 }
 .table5{
 	position: absolute;
-	top:20px;
+	top:16px;
 	left:90px;
 	height:40px;
 	width:1110px;
 }
 .table6{
 	position: absolute;
-	top:20px;
+	top:16px;
 	left:90px;
 	height:40px;
 	width:1110px;
@@ -221,5 +281,10 @@ table td:nth-child(6){
 table td:nth-child(7){
 	border-top: 1px solid black;
 	width:196px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
