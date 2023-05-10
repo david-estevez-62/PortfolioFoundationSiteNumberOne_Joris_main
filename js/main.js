@@ -100,11 +100,11 @@ $(".sect1_visible_part").on('click', function(){
 })
 
 $(".sect2_visible_part").on('click', function(){
-  window.location.href = "http://portfoliobaselinesitenum2.herokuapp.com";
+  window.location.href = "http://157.230.183.191/portfoliobaselinesitenum2";
 })
 
 $(".sect3_visible_part").on('click', function(){
-  window.location.href = "http://portfoliobaselinesitenum3.herokuapp.com";
+  window.location.href = "http://157.230.183.191/portfoliobaselinesitenum3";
 })
 
 $(".sect4_visible_part").on('click', function(){
