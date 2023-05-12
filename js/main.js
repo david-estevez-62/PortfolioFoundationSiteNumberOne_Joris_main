@@ -96,15 +96,15 @@ $(function(){
 
 
 $(".sect1_visible_part").on('click', function(){
-  window.location.href = "http://erichr.me";
+  window.location.href = "http://about.me/erichr";
 })
 
 $(".sect2_visible_part").on('click', function(){
-  window.location.href = "http://157.230.183.191/portfoliobaselinesitenum2";
+  window.location.href = "http://157.230.183.191/portfoliobaselinesitenum2_mtimv";
 })
 
 $(".sect3_visible_part").on('click', function(){
-  window.location.href = "http://157.230.183.191/portfoliobaselinesitenum3";
+  window.location.href = "http://157.230.183.191/portfoliobaselinesitenum3_mtimv";
 })
 
 $(".sect4_visible_part").on('click', function(){
