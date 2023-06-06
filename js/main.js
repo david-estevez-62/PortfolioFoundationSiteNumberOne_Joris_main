@@ -100,11 +100,11 @@ $(".sect1_visible_part").on('click', function(){
 })
 
 $(".sect2_visible_part").on('click', function(){
-  window.location.href = "http://157.230.183.191/portfoliobaselinesitenum2_mtimv";
+  window.location.href = "http://erichr.me/portfoliobaselinesitenum2_mtimv";
 })
 
 $(".sect3_visible_part").on('click', function(){
-  window.location.href = "http://157.230.183.191/portfoliobaselinesitenum3_mtimv";
+  window.location.href = "http://erichr.me/portfoliobaselinesitenum3_mtimv";
 })
 
 $(".sect4_visible_part").on('click', function(){
