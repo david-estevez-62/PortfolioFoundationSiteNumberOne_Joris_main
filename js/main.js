@@ -18,8 +18,6 @@ var sectionLinks = [
   "#!"
 ];
 
-isTouchDevice = true;
-
 
 var expandRetractProgramSection = function(sectNum, event) {
   if(event === "mouseover" || event === "click") {
