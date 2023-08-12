@@ -288,3 +288,10 @@ a {
   color: black;
 }
 
+.action_note {
+  font-size: 9px;
+  color: green;
+  position: absolute;
+  top: -18px;
+  left: 93px;
+}
