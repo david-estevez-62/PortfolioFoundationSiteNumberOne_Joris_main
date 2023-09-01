@@ -18,9 +18,8 @@ var sectionLinks = [
   "#!"
 ];
 
-
-var expandRetractProgramSection = function(sectNum, event) {
-  if(event === "mouseover" || event === "click") {
+var expandRetractProgramSection = function(sectNum, evt) {
+  if(evt === "mouseover" || evt === "click") {
     // I used section, singular, because there will only ever be a maximum of one open at a time.
     var sectionThatIsOpened = sectionsThatAreOpen.indexOf(true);
     if(isTouchDevice && (sectionThatIsOpened >= 0)) {
@@ -35,7 +34,7 @@ var expandRetractProgramSection = function(sectNum, event) {
     $(".sect" + sectNum + "_visible_part").css({top:0, height:78});
 
     if(isTouchDevice) {
-      //$(".block" + sectNum).append("<span class='action_note'>Click me again to go to this program's webpage.</span>");
+      $(".block" + sectNum).append("<span class='action_note'>Click me again to go to this program's webpage.</span>");
       $(".sect" + sectNum + "_visible_part").off();
       $(".sect" + sectNum + "_visible_part").on("click", function() {
         $(".sect" + sectNum +"_visible_part").off();
@@ -47,10 +46,12 @@ var expandRetractProgramSection = function(sectNum, event) {
     }
 
   } else {
-//    if(isTouchDevice) {
-  //    var elemSectionBlock = $(".block" + sectNum);
-    //  $(elemSectionBlock.children()[elemSectionBlock.children().length - 1]).remove();
-    //}
+    
+    if(isTouchDevice) {
+     var elemSectionBlock = $(".block" + sectNum);
+    $(elemSectionBlock.children()[elemSectionBlock.children().length - 1]).remove();
+    }
+
     sectionsThatAreOpen[sectNum - 1] = false;
     $(".table" + sectNum).css({top:16});
     $(".block" + sectNum).css({top:4});
@@ -83,27 +84,27 @@ $(function(){
 
 
     $(".sect1_visible_part").on("click", function(){
-      goToLink("http://about.me/erichr");
+      goToLink(sectionLinks[0]);
     })
 
     $(".sect2_visible_part").on("click", function(){
-      goToLink("http://erichr.me/portfoliobaselinesitenum2_mtimv");
+      goToLink(sectionLinks[1]);
     })
 
     $(".sect3_visible_part").on("click", function(){
-      goToLink("http://erichr.me/portfoliobaselinesitenum3_mtimv");
+      goToLink(sectionLinks[2]);
     })
   
     $(".sect4_visible_part").on("click", function(){
-      goToLink("#!");
+      goToLink(sectionLinks[3]);
     })
 
     $(".sect5_visible_part").on("click", function(){
-      goToLink("#!");
+      goToLink(sectionLinks[4]);
     })
 
     $(".sect6_visible_part").on("click", function(){
-      goToLink("#!");
+      goToLink(sectionLinks[5]);
     })
 
 
