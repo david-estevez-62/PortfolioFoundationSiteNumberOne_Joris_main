@@ -11,8 +11,8 @@ var sectionsThatAreOpen = [
 // This stores the link which corresponds to each program section (which I refer to as sect in the codebase). A program section's associated link will be one less than the number of the program section since arrays are zero based, therefore sect1 relates to the zero index of the sectionLinks array.
 var sectionLinks = [
   "http://about.me/erichr",
-  "http://erichr.me/portfoliobaselinesitenum2_mtimv",
-  "http://erichr.me/portfoliobaselinesitenum3_mtimv",
+  "http://erichr.me/portfoliobaselinesite___num_two___mtimv",
+  "http://erichr.me/portfoliobaselinesite___num_three___mtimv",
   "#!",
   "#!",
   "#!"
